@@ -70,7 +70,7 @@ while gen <= MAX_GEN:
             sum_score = 0
             for gamer in p1:
                 sum_score += gamer.score
-                for i in range(gamer.score // (10 * gen)):
+                for i in range(1 + gamer.score // (10 * gen)):
                     players_by_fitness.append(gamer)
             chosen = random.sample(players_by_fitness, int(TPlayers))
 
