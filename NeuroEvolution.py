@@ -8,7 +8,6 @@ from Utils.GoalClass import *
 cWidth = 600
 cHeight = 600
 TPlayers = 20
-TPlayers += TPlayers % 2  # guarantee there's an odd number of players
 
 circlepos = []
 MAX_GEN = 50
